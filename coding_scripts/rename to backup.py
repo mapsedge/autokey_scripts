@@ -1,3 +1,7 @@
+# copies and pastes the selected file as ".${YYY-mm-dd}file_name.ext"
+# to create a hidden backup
+# written for dolphin and krusader, should work for any linux/KDE file manager
+
 from datetime import datetime
 import time
 # import keyboard
