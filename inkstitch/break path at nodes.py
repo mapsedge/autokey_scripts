@@ -1,0 +1,7 @@
+time.sleep(.75)
+mouse.move_cursor(2155, 80)
+# exit(0)
+time.sleep(.5)
+mouse.click_absolute(2155, 80, 1)
+time.sleep(.75)
+keyboard.send_keys("<shift>+<ctrl>+k")
