@@ -1,3 +1,7 @@
+# output PHP: echo("[random number] var_name: " . print_r(var_name, 1)); 
+# output  JS: console.log("[random number] var_name", var_name); 
+# output ASP: I doubt this will ever apply to anyone but me
+
 import mapsedge_save
 
 def cutSelection():
