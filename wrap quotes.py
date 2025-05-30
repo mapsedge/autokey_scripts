@@ -1,4 +1,4 @@
-#Enter script code
+# hilight the text you want to wrap, wrap with double-quotes
 keyboard.send_keys("<ctrl>+x")
 time.sleep(.2)
 var1 = clipboard.get_clipboard()
