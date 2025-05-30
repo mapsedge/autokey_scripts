@@ -1,4 +1,5 @@
-#Enter script code
+# insert 12 character long string of random letters and numbers
+# omits all vowels, K and Q, to avoid inadvertant profanity.
 import string
 import random
 import re
