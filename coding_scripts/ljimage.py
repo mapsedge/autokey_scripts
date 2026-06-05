@@ -1,0 +1,12 @@
+# Enter script code
+time.sleep(.5)
+keyboard.send_keys("<shift>+<home>")
+time.sleep(.1)
+keyboard.send_keys("<ctrl>+x")
+time.sleep(.1)
+keyboard.send_keys('<div style="display:inline-block;float: right; text-align:center;margin:.5em;">')
+keyboard.send_keys('<a href="')
+keyboard.send_keys("<ctrl>+v")
+keyboard.send_keys('" border=0><img src="')
+keyboard.send_keys("<ctrl>+v")
+keyboard.send_keys('" width=150><br>Caption</a></div>')

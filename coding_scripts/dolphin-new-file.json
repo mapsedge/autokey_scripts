@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "description": "dolphin-new-file",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 1,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<shift>"
+        ],
+        "hotKey": "<f10>"
+    },
+    "filter": {
+        "regex": "dolphin.dolphin",
+        "isRecursive": false
+    }
+}

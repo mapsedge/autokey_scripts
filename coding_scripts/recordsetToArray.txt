@@ -1,0 +1,3 @@
+arr = recordsetToArray(rs, 999)
+call writeoutex("[183829956] arr", 0)
+call writeoutex(arr, 2) 

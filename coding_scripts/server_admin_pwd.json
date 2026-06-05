@@ -1,0 +1,31 @@
+{
+    "type": "phrase",
+    "description": "server_admin_pwd",
+    "modes": [
+        1
+    ],
+    "usageCount": 2,
+    "prompt": false,
+    "omitTrigger": true,
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            "admin>>"
+        ],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "sendMode": "<ctrl>+v"
+}

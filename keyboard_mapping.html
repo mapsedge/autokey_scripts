@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x6 Keyboard Mapping - Inkscape</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            border: 2px solid #333;
+            padding: 20px;
+            text-align: center;
+            vertical-align: middle;
+            min-height: 140px;
+            font-size: 14px;
+        }
+        .button-num {
+            font-weight: bold;
+            font-size: 18px;
+            color: #0066cc;
+            margin-bottom: 8px;
+        }
+        .script-name {
+            font-size: 13px;
+            font-weight: bold;
+            color: #333;
+            margin: 8px 0;
+        }
+        .hotkey {
+            font-family: monospace;
+            font-size: 11px;
+            color: #666;
+            background-color: #f9f9f9;
+            padding: 6px;
+            border-radius: 4px;
+            margin-top: 8px;
+        }
+        .row-label {
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>2×6 Keyboard Mapping - Inkscape</h1>
+        <p style="text-align: center; color: #666;">SayoDevice 2x6V RGB | Super + Numpad Keys</p>
+
+        <table>
+            <tr>
+                <td colspan="6" style="background-color: #e8f4f8; padding: 10px; border: 1px solid #999;">
+                    <div class="row-label">Row 1 (Top)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="button-num">1</div>
+                    <div class="script-name">break path at nodes</div>
+                    <div class="hotkey">Super + KP_End</div>
+                </td>
+                <td>
+                    <div class="button-num">2</div>
+                    <div class="script-name">collapse all layers</div>
+                    <div class="hotkey">Super + KP_Down</div>
+                </td>
+                <td>
+                    <div class="button-num">3</div>
+                    <div class="script-name">delete segment</div>
+                    <div class="hotkey">Super + KP_Next</div>
+                </td>
+                <td>
+                    <div class="button-num">4</div>
+                    <div class="script-name">join nodes</div>
+                    <div class="hotkey">Super + KP_Left</div>
+                </td>
+                <td>
+                    <div class="button-num">5</div>
+                    <div class="script-name">join nodes w path</div>
+                    <div class="hotkey">Super + KP_Right</div>
+                </td>
+                <td>
+                    <div class="button-num">6</div>
+                    <div class="script-name">move nodes</div>
+                    <div class="hotkey">Super + KP_Home</div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" style="background-color: #e8f4f8; padding: 10px; border: 1px solid #999;">
+                    <div class="row-label">Row 2 (Bottom)</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="button-num">7</div>
+                    <div class="script-name">params</div>
+                    <div class="hotkey">Super + KP_Up</div>
+                </td>
+                <td>
+                    <div class="button-num">8</div>
+                    <div class="script-name">params - satin</div>
+                    <div class="hotkey">Super + KP_Page_Up</div>
+                </td>
+                <td>
+                    <div class="button-num">9</div>
+                    <div class="script-name">restack</div>
+                    <div class="hotkey">Super + KP_Insert</div>
+                </td>
+                <td>
+                    <div class="button-num">10</div>
+                    <div class="script-name">reverse path</div>
+                    <div class="hotkey">Super + KP_Divide</div>
+                </td>
+                <td>
+                    <div class="button-num">11</div>
+                    <div class="script-name">simulate</div>
+                    <div class="hotkey">Super + KP_Multiply</div>
+                </td>
+                <td>
+                    <div class="button-num">12</div>
+                    <div class="script-name">stitch plan</div>
+                    <div class="hotkey">Super + KP_Subtract</div>
+                </td>
+            </tr>
+        </table>
+
+        <p style="margin-top: 30px; font-size: 12px; color: #666;">
+            <strong>Layout:</strong><br>
+            1  2  3  4  5  6<br>
+            7  8  9  10 11 12<br><br>
+            <strong>Configuration file:</strong> ~/.config/input-remapper-2/presets/SayoDevice\ SayoDevice\ 2x6V\ RGB/Inkscape.json
+        </p>
+    </div>
+</body>
+</html>

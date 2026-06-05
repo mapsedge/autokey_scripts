@@ -1,0 +1,8 @@
+set cmdObj = NewSQLCommand(conn, sSQL)
+cmdObj.addParameter "", adInteger, value  '-- << name is always optional
+cmdObj.addParameter "firstname", adChar, value
+cmdObj.setSize 10  '<< to match the field definition; only for character fields
+cmdObj.execute
+- or -
+set rs = cmdObj.execute
+cmdObj.commandText = sSQL '-- to change the SQL; ALSO RESETS PARAMETERS TO NOTHING

@@ -1,0 +1,8 @@
+time.sleep(.5)
+mouse.click_relative_self(0, 0, 3)
+time.sleep(.5)
+keyboard.send_keys("<up>")
+time.sleep(.1)
+keyboard.send_keys("<enter>")
+time.sleep(.5)
+keyboard.send_keys("<up>")

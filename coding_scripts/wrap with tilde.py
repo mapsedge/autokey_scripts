@@ -1,0 +1,7 @@
+keyboard.send_keys("<ctrl>+x")
+time.sleep(.3)
+keyboard.send_keys("~~~")
+time.sleep(.2)
+keyboard.send_keys("<ctrl>+v")
+time.sleep(.2)
+keyboard.send_keys("~~~")

@@ -1,0 +1,26 @@
+{
+    "type": "script",
+    "description": "reverse path",
+    "store": {},
+    "modes": [],
+    "usageCount": 65,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": "org.inkscape.*",
+        "isRecursive": false
+    }
+}

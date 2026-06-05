@@ -1,0 +1,43 @@
+{
+    "type": "script",
+    "description": "writeout0",
+    "store": {},
+    "modes": [
+        1
+    ],
+    "usageCount": 35,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [
+            "wot2",
+            "wot8",
+            "wot16",
+            "wot18",
+            "wot4",
+            "awot0",
+            "awot2",
+            "awot4",
+            "awot8",
+            "awot16",
+            "awot18",
+            "wot10",
+            "awot10",
+            "wot0"
+        ],
+        "backspace": false,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    }
+}

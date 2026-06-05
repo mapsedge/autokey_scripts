@@ -1,0 +1,2 @@
+set arr = splitView(file_get_contents("/path"))
+sTemp = doTemplateReplace(arr("head"), "rs", rs) 

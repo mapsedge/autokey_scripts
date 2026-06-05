@@ -1,0 +1,3 @@
+$rs = $GLOBALS['dba']->execUnsafe($sql, 1);
+$rs = $GLOBALS['dba']->execute([$sql, 1, []]);
+$hasRows = (count($rs) > 0); 

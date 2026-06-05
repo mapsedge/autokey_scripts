@@ -1,0 +1,6 @@
+SimpleNotification.success({ text: 'Saved.', title: 'Signature Mapping' }, {
+	position: 'bottom-left',
+	insertAnimation: { name: "scalein", duration: 500 },
+	removeAnimation: { name: "scaleout", duration: 300 },
+	duration: 3000
+});

@@ -1,0 +1,1 @@
+SimpleNotification.[error,success,warning,info]({ text: 'user message with debug key dbg/950678/dbg' }, { position: 'bottom-left', duration: 4000 })

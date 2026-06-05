@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "description": "join nodes w path",
+    "store": {},
+    "modes": [
+        3
+    ],
+    "usageCount": 0,
+    "prompt": false,
+    "omitTrigger": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<super>"
+        ],
+        "hotKey": "<np_right>"
+    },
+    "filter": {
+        "regex": "org.inkscape.*",
+        "isRecursive": false
+    }
+}
